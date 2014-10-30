@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants />
+	<permissions />
+	<actions>
+		<action name="dispKakaologinAdminConfig" type="view" menu_name="kakaologin" menu_index="true" admin_index="true" />
+		<action name="dispKakaologinOAuth" type="view"/>
+		<action name="procKakaologinOAuth" type="controller" />
+        <action name="procKakaologinAdminInsertConfig" type="controller" standalone="false" />
+	</actions>
+	<menus>
+		<menu name="kakaologin" type="all">
+			<title xml:lang="en">XE Kakao Login</title>
+			<title xml:lang="ko">XE Kakao Login</title>
+			<title xml:lang="jp">XE Kakao Login</title>
+		</menu>
+	</menus>
+</module>

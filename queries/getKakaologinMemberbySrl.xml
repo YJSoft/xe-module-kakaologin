@@ -1,0 +1,11 @@
+<query id="getKakaologinMemberbySrl" action="select">
+    <tables>
+        <table name="kakaologin_member" />
+    </tables>
+    <columns>
+        <column name="enc_id" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="srl" var="srl" notnull="notnull" />
+    </conditions>
+</query>

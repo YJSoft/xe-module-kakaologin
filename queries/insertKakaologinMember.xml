@@ -1,0 +1,9 @@
+<query id="insertKakaologinMember" action="insert">
+	<tables>
+		<table name="kakaologin_member" />
+	</tables>
+	<columns>
+		<column name="srl" var="srl" notnull="notnull" />
+		<column name="enc_id" var="enc_id" notnull="notnull" />
+	</columns>
+</query>

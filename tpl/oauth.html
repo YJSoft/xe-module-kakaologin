@@ -1,0 +1,4 @@
+<script>
+	location.href='https://kauth.kakao.com/oauth/authorize?client_id={$module_config->clientid}&response_type=code&redirect_uri={urlencode($module_config->def_url . "index.php?act=procKakaologinOAuth")}';
+</script>
+<p>브라우저가 자동으로 이동하지 않을 경우 <a href="https://kauth.kakao.com/oauth/authorize?client_id={$module_config->clientid}&response_type=code&redirect_uri={urlencode($module_config->def_url . 'index.php?act=procKakaologinOAuth')}">여기</a>를 클릭</p>

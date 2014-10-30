@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="en">XE Kakao Login</title>
+	<title xml:lang="ko">XE Kakao Login</title>
+	<title xml:lang="jp">XE Kakao Login</title>
+	<description xml:lang="en">Can login with kakao account</description>
+	<description xml:lang="ko">카카오 계정으로 로그인할수 있게 합니다.</description>
+	<description xml:lang="jp">Can login with kakao account</description>
+	<version>1.0</version>
+	<date>2014-10-25</date>
+	<author email_address="yjsoft@yjsoft.pe.kr" link="http://yjsoft.pe.kr/">
+		<name xml:lang="en">YJSoft</name>
+		<name xml:lang="ko">YJSoft</name>
+		<name xml:lang="jp">YJSoft</name>
+	</author>
+</module>
