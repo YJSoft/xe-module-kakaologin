@@ -18,7 +18,7 @@ class kakaologinController extends kakaologin
 	{
 		$cond = new stdClass();
 		$cond->srl = $args->member_srl;
-		$output = executeQuery('naverlogin.getKakaologinMemberbySrl', $cond);
+		$output = executeQuery('kakaologin.getKakaologinMemberbySrl', $cond);
 		if(isset($output->data->enc_id)) $_SESSION['rechecked_password_step'] = 'INPUT_DATA';
 		return;
 	}
